@@ -1,0 +1,150 @@
+.reciept-header{
+    display: flex;
+    justify-content: space-between;
+}
+.reciept-container{
+    margin: 0 20% auto;
+}
+.invoiceId ul li{
+    list-style-type: none;
+}
+.customerId-container{
+    display: flex;
+    justify-content: space-between;
+}
+.bill-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.bill-container .bill-from, .bill-to{
+    /* border: 1px solid red; */
+    padding: 0 35px 0 0;
+    
+}
+.reciept-body{
+    margin: 0 10% auto;
+}
+.billing-period{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 7%;
+}
+
+.description-amount-container{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+border-radius: 5px;
+}
+
+.description-amount-container{
+display: flex;
+justify-content: space-between;
+}
+.lease-of-payment{
+display: flex;
+justify-content: space-between;
+}
+
+.value-added-tax{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grand-total{
+display: flex;
+justify-content: space-between;
+/* margin-bottom: 7%; */
+}
+
+.account-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 7%;
+
+  }
+
+  .account-left,
+  .account-right {
+    flex: 1;
+    padding: 0;
+    /* width: 50%; */
+  }
+
+  .account-details,
+  .tin {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .account-details li,
+  .tin li {
+    margin-bottom: 5px;
+    list-style-type: none;
+    flex: 1;
+  }
+
+  .make-payment {
+    text-align: center;
+    margin-top: 20px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center; /* Align the button to the center */
+  }
+
+  .make-payment button {
+    color: #ffffff;
+    background-color: #3498db;
+    border: solid 1px #3498db;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 25px;
+    text-transform: capitalize;
+    border-color: #3498db;
+    text-decoration: none;
+    width: 100%; /* Make the button take the full width of the parent div */
+  }
+
+  .make-payment button:hover {
+    background-color: #1a75bc;
+  }
+  
+
+  .tin {
+    text-align: right;
+  }
+
+  .account-details {
+    text-align: left;
+    /* flex: 1; */
+    padding: 0;
+  }
+
+  .question{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 60px;
+}
+.account-left ul{
+    padding: 0;
+    text-align: left;
+}
+
+.logo img{
+    width: 150px;
+}
